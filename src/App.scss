@@ -1,0 +1,326 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.App {
+  width: 100%;
+}
+span {
+  margin-left: 10px;
+}
+input {
+  border-radius: 10px solid black;
+}
+.navbar-brand {
+  margin-right: 850px;
+}
+.navbar {
+  margin-top: 30px;
+  height: 10px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+}
+.container-1 {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.container-2 {
+  display: flex;
+  border: 2px;
+  box-shadow: 0px 5px 5px -3px grey;
+  border-radius: 15px;
+  height: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 25px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.table-responsive {
+  overflow: hidden;
+}
+select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.table-container {
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: 15px 10px 10px -3px grey;
+  height: max-content;
+}
+
+.table {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  width: 96.4%;
+  margin: 26px;
+  border-radius: 30px;
+}
+
+.button {
+  border-radius: 10px;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  top: 76%;
+  right: 480px;
+  transform: translateY(-50%);
+}
+
+.search-input {
+  width: 500px;
+  height: 35px;
+}
+
+.select-option {
+  width: 200px;
+  height: 35px;
+}
+
+button {
+  border-radius: 15px;
+}
+
+.doubledown {
+  height: 35px;
+  margin-top: 33px;
+  border-radius: 2px;
+  text-align: center;
+  width: 100px;
+  background-color: #1468c2;
+  color: white;
+  margin-right: 38px;
+}
+.showlabel {
+  margin-right: 20px;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+label {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  font-weight: bold;
+}
+.summarylabel {
+  margin-right: 350px;
+  margin-left: 0;
+}
+.bi-bell {
+  width: 30px;
+  height: 30px;
+}
+.bell-badge {
+  width: 30px;
+}
+.container-table {
+  display: flex;
+  justify-content: space-around;
+}
+
+.summary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+}
+.container-2 button {
+  margin-top: 32px;
+}
+.pagination {
+  margin-left: 60px;
+  margin-top: 17px;
+}
+.select-option-2 {
+  margin-right: 60px;
+}
+/* Add your existing styles for .summarylabel, .showlabel, .select-option-2, .tableheads, .pagination, etc. */
+
+// @media (max-width: 1400px) {
+//   .table-responsive {
+//     overflow-x: visible;
+//   }
+//   .table {
+//     margin: 5px;
+//   }
+//   body {
+//     width: 100%;
+//   }
+//   .tableheads {
+//     width: 150px;
+//   }
+//   .navbar {
+//     width: 100%;
+//   }
+//   nav {
+//     width: 100%;
+//   }
+//   .App {
+//     width: 1270px;
+//   }
+// }
+
+@media (max-width: 1400px) {
+  .table-responsive {
+    overflow-x: visible;
+    scroll-behavior: auto;
+    margin: 0;
+  }
+
+  .App {
+    width: 100%;
+  }
+
+  .navbar-brand {
+    margin: 0;
+    font-size: smaller;
+    white-space: wrap;
+    margin-right: 10%;
+  }
+  .navbar {
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: row;
+    background-color: #f3eeee;
+    font-size: smaller;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-image {
+    width: auto;
+    height: 40px;
+  }
+
+  .bi-bell {
+    width: 20px;
+    height: 15px;
+  }
+  .bell-badge {
+    width: 23px;
+    height: 15px;
+  }
+  .container-1 {
+    border-radius: 15px;
+    font-size: 0.5rem;
+    font-weight: bolder;
+    width: 100%;
+    margin: 0;
+  }
+  .container-1 h2 {
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 5px;
+  }
+
+  label {
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+  .search-input {
+    width: 60px;
+    height: 20px;
+  }
+
+  .select-option {
+    width: 45px;
+    height: 20px;
+    font-size: 0.6rem;
+  }
+
+  select {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  .container-2 {
+    padding: 10px;
+    margin: 0;
+  }
+  .container-2 button {
+    width: 60px;
+    padding: 6px;
+    margin-top: 30px;
+  }
+  .table {
+    border-radius: 15px;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 0.6rem;
+    overflow: auto;
+    max-height: fit-content;
+    border-radius: 15px;
+  }
+  .table-div {
+    width: 100%;
+    padding: 50px;
+  }
+  .doubledown {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .summarylabel {
+    font-size: 0.7rem;
+    width: 100px;
+    margin: 0;
+    margin-right: 5px;
+  }
+  .showlabel {
+    font-size: 0.7rem;
+    width: 50px;
+  }
+  .select-option-2 {
+    font-size: 0.6rem;
+    width: 100px;
+    margin: 0;
+  }
+  .dispatch-btn {
+    font-size: 0.6rem;
+    width: 90px;
+    padding: 5px;
+    margin: 0px;
+    height: 35px;
+  }
+  .pagination-item {
+    font-size: 0.7rem;
+    width: 25px;
+  }
+}
